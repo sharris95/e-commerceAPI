@@ -16,18 +16,22 @@ Before getting started, make sure you have the following installed:
 Python 3.11
 MySQL
 pip (Python package installer)
+
 Installation
+
 Clone the repository:
 
 
 
 git clone <repository-url>
 cd <repository-directory>
+
 Create a virtual environment:
 
 
 
 python -m venv venv
+
 Activate the virtual environment:
 
 On Windows:
