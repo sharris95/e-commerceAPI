@@ -292,6 +292,13 @@ Environment Variables
 
 SQLALCHEMY_DATABASE_URI: The URI for connecting to the MySQL database.
 
+Postman Collections
+You can find the Postman collections for testing the API endpoints:
+
+Customer Management: Customer Management Collection (replace with the actual link if shared publicly)
+Product Management: Product Management Collection
+Order Management: Order Management Collection
+
 GitHub Repository
 
 Link to GitHub Repository (https://github.com/sharris95/e-commerceAPI)
