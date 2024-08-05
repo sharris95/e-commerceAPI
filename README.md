@@ -277,7 +277,7 @@ SQLALCHEMY_DATABASE_URI: The URI for connecting to the MySQL database.
 
 GitHub Repository
 
-Link to GitHub Repository (make sure to replace with your actual GitHub link)
+Link to GitHub Repository (https://github.com/sharris95/e-commerceAPI)
 
 Known Issues and Future Enhancements
 
