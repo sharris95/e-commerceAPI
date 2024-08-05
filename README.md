@@ -90,6 +90,8 @@ Response:
     "email": "john.doe@example.com",
     "phone_number": "123-456-7890"
 }
+
+
 Get Customer by ID
 
 GET /customers/<id>
@@ -102,6 +104,8 @@ Response:
     "email": "john.doe@example.com",
     "phone_number": "123-456-7890"
 }
+
+
 Update Customer
 
 PUT /customers/<id>
@@ -122,6 +126,8 @@ Response:
     "email": "john.doe.jr@example.com",
     "phone_number": "123-456-7890"
 }
+
+
 Delete Customer
 
 DELETE /customers/<id>
@@ -131,7 +137,10 @@ Response:
 {
     "message": "Customer deleted"
 }
+
+
 Product Management
+
 Create Product
 
 POST /products
@@ -152,6 +161,7 @@ Response:
     "price": 19.99,
     "stock": 100
 }
+
 Get Product by ID
 
 GET /products/<id>
@@ -164,6 +174,7 @@ Response:
     "price": 19.99,
     "stock": 100
 }
+
 Update Product
 
 PUT /products/<id>
@@ -184,6 +195,7 @@ Response:
     "price": 24.99,
     "stock": 150
 }
+
 Delete Product
 
 DELETE /products/<id>
@@ -193,6 +205,7 @@ Response:
 {
     "message": "Product deleted"
 }
+
 List Products
 
 GET /products
@@ -208,7 +221,9 @@ Response:
     },
     ...
 ]
+
 Order Management
+
 Place Order
 
 POST /orders
@@ -231,6 +246,7 @@ Response:
     "customer_id": 1,
     ...
 }
+
 Get Order by ID
 
 GET /orders/<id>
@@ -261,6 +277,7 @@ Response:
     "order_date": "2024-08-06T10:00:00.000000Z",
     ...
 }
+
 Delete Order
 
 DELETE /orders/<id>
