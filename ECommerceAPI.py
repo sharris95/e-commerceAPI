@@ -11,7 +11,7 @@ load_dotenv()
 
 # Initialize Flask application
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Gory1234!@127.0.0.1/ecommerce'  # Update with actual credentials
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://user:Password@127.0.0.1/ecommerce'  # Update with actual credentials
 
 # Initialize extensions
 db = SQLAlchemy(app)
