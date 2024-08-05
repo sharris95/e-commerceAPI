@@ -1,8 +1,11 @@
 E-commerce API
+
 Project Overview
+
 Welcome to my E-commerce API project! This project is part of my full-stack coding bootcamp, where I've been learning to build web applications using Flask and Flask-SQLAlchemy. The API is designed to handle basic e-commerce functionalities, like managing customers, products, and orders. This project is a great way for me to apply what I've learned about RESTful APIs, databases, and backend development.
 
 Features
+
 Customer Management: Add, view, update, and delete customers.
 Product Management: Manage products in the catalog.
 Order Management: Handle customer orders, including placing and viewing orders.
